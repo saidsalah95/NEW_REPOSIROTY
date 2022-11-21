@@ -1,24 +1,34 @@
 # -*- coding: utf-8 -*-
-
+#
 import simple_draw as sd
+#
+# sd.resolution = (1200, 1000)
 
-sd.resolution = (1200, 600)
 
-# Нарисовать пузырек - три вложенных окружностей с шагом 5 пикселей
-# TODO здесь ваш код
+# point = sd.get_point(100, 100)
+# radius = 50
+# for _ in range(3):
+#     radius += 5
+#     sd.circle(center_position=point, radius=radius)
 
-# Написать функцию рисования пузырька, принммающую 2 (или более) параметра: точка рисовании и шаг
-# TODO здесь ваш код
+# def bubble(rightbat, step):
+#     leftbat = 15
+#     for _ in range(3):
+#         leftbat += step
+#         sd.ellipse(left_bottom=leftbat, right_top=rightbat, color=sd.random_color(), width=3)
 
-# Нарисовать 10 пузырьков в ряд
-# TODO здесь ваш код
 
-# Нарисовать три ряда по 10 пузырьков
-# TODO здесь ваш код
+# point = sd.get_point(300, 300)
+# bubble(point=point, step=10)
 
-# Нарисовать 100 пузырьков в произвольных местах экрана случайными цветами
-# TODO здесь ваш код
 
-sd.pause()
+# for x in range(100, 1001, 100):
+#     point = sd.get_point(x, 100)
+#     bubble(point=point, step=5)
+
+# for y in range(100, 1000, 100):
+#     for x in range(100, 1001, 100):
+#         point = sd.get_point(x, y)
+#         bubble(point=point, step=5)
 
 

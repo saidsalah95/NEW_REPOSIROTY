@@ -48,7 +48,7 @@ store = {
 
 # TODO здесь ваш код
 
-
+Lamp = goods['']
 
 
 
